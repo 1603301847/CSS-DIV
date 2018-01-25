@@ -1,0 +1,155 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-07 08:28:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-17 13:51:37
+*/
+#container{
+    width: 996px;
+    height: 1000px;
+    margin: 0px auto;
+    background: #666;
+}
+#header{
+    height: 73px;
+    background: #001F4A;
+}
+#header h1{
+    width: 361px;
+    height: 73px;
+    background: url(../images/logo.png) no-repeat;
+    margin: 0px;
+    float: left;
+}
+#header ul{
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+#header ul.left li{
+    float: left;
+    margin-left: 20px;
+}
+#header ul.left li a{
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+#header ul.left li a:hover{
+    text-decoration: underline;
+}
+#header ul.right{
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+#header ul.right li{
+    float: left;
+    margin-right: 20px;
+}
+#header ul.right li a{
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+#header ul.right li a:hover{
+    text-decoration: underline;
+}
+#nav{
+    height: 40px;
+    background: #001F4A;
+
+}
+#nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}
+#nav ul li{
+    float: left;
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    line-height: 40px;
+}
+#nav ul li:first-child{
+    width: 116px;
+}
+#nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+#nav ul li a:hover{
+    background: red;
+}
+#banner img{
+    width: 996px;
+}
+#notice{
+    height: 60px;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+#notice h3{
+    width: 100px;
+    height: 60px;
+    background: red;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+    color: #000;
+    float: left;
+}
+#notice div{
+    float: left;
+    height: 60px;
+}
+#notice div marquee{
+    color: #000;
+    height: 60px;
+    font-size: 12px;
+}
+#notice p{
+    color: #000;
+    float: right;
+    width: 100px;
+    height: 60px;
+    margin: 0px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+}
+#imp{
+     height: 400px;
+     background: green;
+}
+#imp h3{
+    margin: 0px;
+    color: #000;
+    background: yellow;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+#imp dl{
+    margin: 0px;
+    float: left;
+}
+#imp dd{
+    margin: 0px;
+}
+#imp dd.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+#imp dd.data{
+    font-size: 12px;
+    color: red;
+}

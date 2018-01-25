@@ -1,0 +1,260 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-10 11:22:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-04 12:38:00
+*/
+#container{
+    width: 996px;
+    height: 1250px;
+    /*background: red;*/
+    margin: 0px auto;
+}
+#header{
+    height: 58px;
+    margin-bottom: 10px;
+}
+#header h1{
+    width: 247px;
+    height: 58px;
+    background: url(../images/logo.jpg) no-repeat;
+    margin: 0px;
+    float: left;
+}
+#nav{
+    height: 45px;
+    background: #642C83;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+#nav ul li{
+    float: left;
+    height: 45px;
+    width: 99.6px;
+    text-align: center;
+}
+#nav ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+#nav ul li a:hover{
+    background: #663AAA;
+}
+#nav ul li:hover div.list_one,#nav ul li:hover div.list_two{
+    display: block;
+}
+div.list_one{
+    height: 225px;
+    width: 99.6px;
+    position: absolute;
+    background: #642C83;
+    display: none;
+    z-index: 1;
+}
+div.list_two{
+    height: 135px;
+    width: 99.6px;
+    position: absolute;
+    background: #642C83;
+    display: none;
+    z-index: 1;
+}
+div.list_one ul,div.list_two ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+div.list_one ul li,div.list_two ul li{
+    height: 45px;
+    width: 99.6px;
+    text-align: center;
+}
+div.list_one ul li a,div.list_two ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+div.list_one ul li a:hover,div.list_two ul li a:hover{
+    background: #663AAA;
+}
+#current{
+    text-align: right;
+    font-size: 12px;
+    line-height: 45px;
+}
+#banner_left{
+    width: 204px;
+    height: 473px;
+    float: left;
+}
+#banner_left h2{
+    color: #642C83;
+    font-family: 黑体;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    line-height: 47px;
+}
+#banner_left ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 47.3px;
+    text-align: left;
+
+}
+#banner_left ul li{
+    width: 204px;
+    height: 47.3px;
+}
+#banner_left ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+#banner_left ul li span{
+    padding-right: 20px;
+    float: right;
+}
+#banner_left ul li a{
+    color: #888;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+}
+#banner_left ul li a:hover{
+    color: #FFF;
+    background: #642C83;
+}
+#banner_right{
+    width: 792px;
+    height: 473px;
+    background: url(../images/banner.gif) no-repeat;
+    float: right;
+}
+#finebooks{
+    width: 996px;
+    height: 450px;
+}
+#finebooks h2{
+    color: #888;
+    font-family: 黑体;
+    margin: 500px 0px 0px 0px;
+    padding: 0px;
+    line-height: 47px;
+    font-weight: normal;
+}
+#finebooks div.finebooks_left{
+    width: 110px;
+    height: 235px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#finebooks div.finebooks_left ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 47px;
+    text-align: center;
+}
+#finebooks div.finebooks_left ul li{
+    width: 110px;
+    height: 47px;
+    float: left;
+}
+#finebooks div.finebooks_left ul li a{
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+}
+#finebooks div.finebooks_left ul li a:hover{
+    color: #fff;
+    background: #642C83;
+    display: block;
+}
+#finebooks div.finebooks_right{
+    float: right;
+    width: 886px;
+    height: 403px;
+    margin: 0px;
+    padding: 0px;
+}
+#finebooks div.finebooks_right ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#finebooks div.finebooks_right ul li{
+    float: left;
+    width: 295px;
+    margin-bottom:35px
+}
+#finebooks div.finebooks_right ul li dl{
+    margin: 0px;
+}
+#finebooks div.finebooks_right ul li dl dt{
+    float: left;
+}
+#finebooks div.finebooks_right ul li dl dt img{
+    width: 135px;
+    height: 180px;
+}
+#finebooks div.finebooks_right ul li dl dd.title{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 0px 0px 120px;
+}
+#finebooks div.finebooks_right ul li dl dd.content{
+    font-size: 12px;
+}
+#media_links{
+    width: 996px;
+    height: 150px;
+   /*background: tan;*/
+}
+#media_links ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#media_links ul li{
+    float: left;
+}
+#media_links ul li dl dt img.p1{
+    margin-left: 80px;
+}
+#media_links ul li dl dt img.p2{
+    margin-left: 220px;
+}
+#media_links ul li dl dt img.p3{
+    margin-left: 220px;
+}
+#media_links ul li dl dd.text1{
+    margin-top: 3px;
+    margin-left: 110px;
+    font-size: 12px;
+}
+#media_links ul li dl dd.text2{
+    margin-top: 3px;
+    margin-left: 230px;
+    font-size: 12px;
+}
+#media_links ul li dl dd.text3{
+    margin-top: 3px;
+    margin-left: 230px;
+    font-size: 12px;
+}
+#footer{
+    margin-top: 30px;
+    font-size:14px;
+    text-align:center;
+    line-height:25px;
+}

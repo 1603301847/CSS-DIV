@@ -1,0 +1,9 @@
+padding-left: 左内边距
+padding-bottom:底部的内边距
+padding: 内边距
+border:边框
+border-bottom:底边框
+
+mooc.wtc.edu.cn
+
+当text-align属性的值设置为justify时，需要同时设置text-justify属性的值为inter-ideograph（中文）或者text-justify:inter-word（英文）。

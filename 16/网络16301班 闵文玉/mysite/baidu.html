@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        #search{
+            width:500px;
+            height:50px;
+            margin:50px auto 0px auto;
+        }
+        #search div.left{
+            width:400px;
+            height:50px;
+            float:left;
+        }
+        #search div.right{
+            width:100px;
+            height:50px;
+            float:left;
+        }
+        #search div.left form input.searchbox{
+            width:300px;
+            height:30px;
+            line-height:30px;/* 让光标垂直居中 */
+            border:1px solid #000000;
+        }
+        #search div.left form input.btn{
+            width:80px;
+            height:35px;
+            border:1px solid #000000;
+            background:#3183ff;
+            color:#ffffff;
+            font-weight:bold;
+            margin-left:-3px;
+            vertical-align:1px;
+        }
+        #search div.left form{
+            margin:8px 0px 0px 5px;/* 调整表单的位置 */
+        }
+        #search div.right ul{
+            list-style-type:none;
+            margin:10px 0px 0px 10px;/* 调整ul列表的位置 */
+            padding:0px;
+            width:100px;
+            height:35px;
+        }
+        #search div.right ul li{
+            height:15px;
+            line-height:15px;
+        }
+        #search div.right a:link,#search div.right a:visited{
+            color:blue;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="search">
+    <div class="left">
+    <form><!--表单-->
+        <input type="text" class="searchbox"><!--输入框-->
+        <input type="submit" value="百度搜索" class="btn"><!--按钮-->
+    </form>
+    </div>
+    <div class="right">
+    <ul>
+        <li><a href="#">搜索帮助</a></li>
+        <li><a href="#">高级搜索</a></li>
+    </ul>
+    </div>
+    </div>
+</body>
+</html>

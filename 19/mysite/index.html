@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        #container{
+            width:760px;
+            height:1000px;
+            background:#666666;
+            margin:0px auto;
+        }
+        #logo{
+            /* 宽度可以在该div未浮动的情况下省略，即采用自动宽度，自动设置为与其父标签container相同 */
+            height:140px;
+            background:url(images/banner.jpg) no-repeat;
+        }
+        #nav{
+            height:25px;
+            background:#DAEEFF;
+        }
+        #nav ul{
+            margin:0px;
+            padding:0px;
+            list-style-type:none;
+            float:right;
+        }
+        #nav ul li{
+            float:left;
+            height:25px;
+            margin-right:10px;
+        }
+        #nav ul li a{/* 同时设置伪类a:link和a:visited对应的超链接外观 */
+            color:#004D86;
+            text-decoration:none;
+            font-size:12px;
+        }
+        #left{
+            width:210px;
+            height:800px;
+            background:red;
+            float:left;/* 将div左浮动，破坏正常的从上向下的文档流，使得left和right两个div并排放置在一行 */
+        }
+        #right{
+            width:530px;
+            height:800px;
+            background:green;
+            float:left;/* 将div左浮动，破坏正常的从上向下的文档流，使得left和right两个div并排放置在一行
+            该div也可以右浮动 */
+            margin-left:20px;/* 将right与left隔开20px */
+        }
+        #footer{
+            width:760px;
+            height:50px;
+            background:yellow;
+            clear:left;/* 设置前面div设置的浮动对本div的影响，取left表示清除左浮动，right表示清除右浮动 both表示同时清除左右浮动，浮动与清除浮动都属于教材中float定位那一节的内容 */
+        }
+        #left p.img{
+            background:red;
+            text-align:center;
+        }
+        #left p.text{
+            border-top:1px dashed #000;
+            border-bottom:1px dashed #000;
+            padding-top:3px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div id="logo">
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#">个人首页</a></li>
+                <li><a href="#">控制面板</a></li>
+                <li><a href="#">我的文章</a></li>
+                <li><a href="#">我的相册</a></li>
+                <li><a href="#">我的圈子</a></li>
+                <li><a href="#">给我留言</a></li>
+            </ul>
+        </div>
+        <div id="left">
+            <p class="img"><img src="images/mypic.jpg" alt=""></p>
+            <p class="text">艾萨克的BLOG</p>
+        </div>
+        <div id="right">
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>

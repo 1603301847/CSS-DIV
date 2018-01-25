@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>百度搜索</title>
+    <style type="text/css">
+        #logo{
+            width:224px;
+            height:89px;
+            background:url(images/baidu.JPG);
+            margin:80px auto 50px auto;
+        }
+        #nav{
+            width:800px;
+            height:30px;
+            background:#EFEFEF;
+            margin:0px auto 0px auto;
+            border-bottom:1px solid blue;
+        }
+        #nav ul{
+            list-style-type:none;
+            margin:0px;
+            padding:0px;
+        }
+        #nav ul li{
+            float:left;
+            width:110px;
+            height:30px;
+            text-align:center;/* 水平居中 */
+            line-height:30px;/* 垂直居中 */
+            font-family:Arial;
+        }
+        #nav ul li:first-child{/* 伪类first-child用于选择li的父标签ul的第一个子标签 */
+            margin-left:15px;
+        }
+        #nav ul li a:link,#nav ul li a:visited{
+            color:blue;
+            text-decoration:none;
+            font-size:12px;
+        }
+        #nav ul li a:hover{
+            text-decoration:underline;
+        }
+        #nav ul li.current{
+            background:blue;
+            color:#ffffff;
+            font-weight:bold;
+        }
+        #search{
+            width:500px;
+            height:50px;
+            margin:50px auto 0px auto;
+        }
+        #search div.left{
+            width:400px;
+            height:50px;
+            float:left;
+        }
+        #search div.right{
+            width:100px;
+            height:50px;
+            float:left;
+        }
+        #search div.left form input.searchbox{
+            width:300px;
+            height:30px;
+            line-height:30px;/* 让光标垂直居中 */
+            border:1px solid #000000;
+        }
+        #search div.left form input.btn{
+            width:80px;
+            height:35px;
+            border:1px solid #000000;
+            background:#3183ff;
+            color:#ffffff;
+            font-weight:bold;
+            margin-left:-3px;
+            vertical-align:1px;
+        }
+        #search div.left form{
+            margin:8px 0px 0px 5px;/* 调整表单的位置 */
+        }
+        #search div.right ul{
+            list-style-type:none;
+            margin:10px 0px 0px 10px;/* 调整ul列表的位置 */
+            padding:0px;
+            width:100px;
+            height:35px;
+        }
+        #search div.right ul li{
+            height:15px;
+            line-height:15px;
+        }
+        #search div.right a:link,#search div.right a:visited{
+            color:blue;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo"></div>
+    <div id="nav">
+    <ul>
+        <li><a href="#">资讯</a></li>
+        <li class="current">网页</li>
+        <li><a href="#">贴吧</a></li>
+        <li><a href="#">知道</a></li>
+        <li><a href="#">MP3</a></li>
+        <li><a href="#">图片</a></li>
+        <li><a href="#">更多&gt;&gt;</a></li>
+    </ul>
+
+    </div>
+    <div id="search">
+    <div class="left">
+    <form><!--表单-->
+        <input type="text" class="searchbox"><!--输入框-->
+        <input type="submit" value="百度搜索" class="btn"><!--按钮-->
+    </form>
+    </div>
+    <div class="right">
+    <ul>
+        <li><a href="#">搜索帮助</a></li>
+        <li><a href="#">高级搜索</a></li>
+    </ul>
+    </div>
+    </div>
+</body>
+</html>

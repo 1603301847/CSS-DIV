@@ -1,0 +1,15 @@
+<MKM version="2.0" imageFileUrl="file:///F:/CSS/19/pc93/%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2%e7%b4%a0%e6%9d%90/%e6%95%88%e6%9e%9c%e5%9b%be.jpg">
+  <Marks>
+    <LengthMark direction="12" color="16711680" length="760" x="124" y="62"/>
+    <LengthMark direction="3" color="16711680" length="25" x="419" y="140"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14348031" offsetX="25" offsetY="10" x="474" y="150"/>
+    <LengthMark direction="12" color="16711680" length="10" x="579" y="153"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="19846" offsetX="25" offsetY="10" x="672" y="152"/>
+    <LengthMark direction="12" color="16711680" length="210" x="123" y="171"/>
+    <LengthMark direction="12" color="16711680" length="530" x="353" y="171"/>
+    <LengthMark direction="12" color="16711680" length="190" x="133" y="445"/>
+    <LengthMark direction="12" color="16711680" length="25" x="124" y="508"/>
+    <LengthMark direction="12" color="16711680" length="25" x="123" y="546"/>
+    <LengthMark direction="3" color="16711680" length="55" x="221" y="523"/>
+  </Marks>
+</MKM>

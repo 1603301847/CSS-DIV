@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        ul.menua{
+            list-style:none;
+        }
+        ul.menua li{
+            float: left;/* 将li横向排列 */
+            margin-right:20px;/* 增大li之间的距离 */
+            background:#c11136;
+            border:1px solid #ed9f9f;
+            width:100px;
+            height:30px;
+            line-height:30px;/* 使得li中的文字位于垂直居中的位置 */
+            text-align:center;
+        }
+        ul.menua li a:link,ul.menua li a:visited{
+            font-family:Aril;/* 英文缺省用宋体显示 */
+            color:#ffffff;
+            text-decoration: none;
+            display: block;/* 将a标签转换为块级标签，使a标签的可点击的范围变大 */
+        }
+        ul.menua li a:hover{
+            color:#ffff00;
+            background:#990020;
+         }
+        ul.menub{
+            list-style:none;
+        }
+        ul.menub li{
+            float: left;
+            margin-right:20px;
+            background:#c11136;
+            border:1px solid #ed9f9f;
+        }
+         ul.menub li a:link,ul.menub li a:visited{
+            font-family:Aril;/* 英文缺省用宋体显示 */
+            color:#ffffff;
+            text-decoration: none;
+            display: block;/* 将a标签转换为块级标签，使a标签的可点击的范围变大 */
+            padding:4px 10px 4px 10px ;/* 调整a标签的大小 */
+         }
+          ul.menub li a:hover{
+            color:#ffff00;
+            background:#990020;
+         }
+    </style>
+</head>
+<body>
+<!--以下ul结构，通过命令ul>li*5>a*1生成-->
+    <ul class="menua">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Blog</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Next Station</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+    <br><br>
+    <ul class="menub">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Blog</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Next Station</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        div#container{
+            width:500px;
+            height:300px;
+            margin:0px auto;/* div水平居中 */
+        }
+        div#container ul.tab{/* ul不设置宽度，也就是采用自动宽度，其宽度值为父标签div#container 的宽度*/
+            list-style-type:none;
+            margin:0px;/* 消除ul默认的内外边距 */
+            padding:0px;
+            height:30px;
+            border-bottom:1px solid #000;
+        }
+        div#container ul.tab li{
+            float:left;/* 将li横向排列 */
+            margin-right:10px;/* 使得li之间的间距增大10px */
+            width:60px;
+            height:30px;/* li的高度要等于ul，便于做边框 */
+            text-align:center;
+            line-height:30px;/* li中文字垂直对齐 */
+            border-top:1px solid #000;/* 只需要给li添加3条边框 */
+            border-left:1px solid #000;
+            border-right:1px solid #000;
+        }
+        div#container ul.tab li a{/* 对超链接的link和visited两个伪类同时进行设置 */
+            color:#000;
+            text-decoration:none;
+            font-size:12px;
+            display:block;
+        }
+        div#container ul.tab li a:hover{
+            background:red;
+        }
+        div#container ul.tab li.current{
+            background:#fff;/* 遮住首页下面的边框线 */
+            font-weight:bold;
+            font-size:12px;
+        }
+        div.page{/* 该div不设置宽度，也就是采用自动宽度，其宽度值为父标签div#container 的宽度*/
+            height:200px;
+            border-left:1px solid #000;
+            border-right:1px solid #000;
+            border-bottom:1px solid #000;
+        }
+        div.page dl{
+            margin:20px 0px 0px 10px;/* 调整dl，也就是图片和文字的位置*/
+            padding:0px;
+            float:left;/* 将dl与右边的ul并排放置在一行，必须浮动 */
+        }
+        div.page dl dd{
+            margin:3px 0px 0px 0px;/* 调整文字与图片之间的距离 */
+            padding:0px;
+            font-size:12px;
+            text-align:center;
+        }
+        div.page ul.news{
+        list-style-type:none;
+        margin:10px 0px 0px 20px;
+        padding:0px;
+        float:left;
+    }
+    div.page ul.news li{
+        line-height:20px;
+    }
+    div.page ul.news li a{/* a选择器可以同时代表link visited hover actived四个伪类 */
+        color:#000;
+        text-decoration:none;
+        font-size:12px;
+    }
+    div.page ul.news li a:hover{
+        text-decoration:underline;
+    }
+    div.page dl a dt img{
+        border:none;
+        filter:alpha(opacity: 0);/* 在ie中做图片透明效果 */
+    }
+    div.page dl a{
+        text-decoration:none;
+        color:#000;
+    }
+    </style>
+</head>
+<body>
+    <div id="container"><!--做容器用div-->
+    <ul class="tab">
+        <li class="current">首页</li>
+        <li><a href="">新闻</a></li>
+        <li><a href="">体育</a></li>
+        <li><a href="">音乐</a></li>
+        <li><a href="tab5.html">下一站</a></li>
+        <li><a href="">博客</a></li>
+    </ul>
+    <div class="page">
+    <dl>
+        <dt><img src="images/PIC1.JPG" alt=""></dt>
+        <dd>追忆往事，展望未来</dd>
+    </dl>
+        <ul class="news">
+           <li><a href="">[首页] 追忆往事，展望未来。新年寄语</a></li>
+           <li><a href="">[新闻] 每年五一、十一长假，很多人不愿出门</a></li>
+           <li><a href="">[新闻] 清华大学电子系研制成功新一代...</a></li>
+           <li><a href="">[体育] 奥运火炬接力火热进行</a></li>
+           <li><a href="">[音乐] 网民调查，你最喜欢的音乐类型</a></li>
+           <li><a href="">[博客] 自由博客新版正式发布，网友...</a></li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>

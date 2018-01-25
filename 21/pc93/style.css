@@ -1,0 +1,41 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-07 08:27:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-07 09:03:26
+*/
+#container{
+    width: 996px;
+    height: 1000px;
+    margin: 0px auto;
+    background: #666;
+}
+#header{
+    height: 73px;
+    background: #001F4A;
+}
+#header h1{
+    width: 361px;
+    height: 73px;
+    background: url(../images/logo.png)  no-repeat;
+    margin: 0px;
+    float: left;
+}
+#header ul.left{
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+#header ul.left li{
+    float: left;
+    margin-left: 20px;
+}
+#header ul.left li a{
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+#header ul.left li a:hover{
+    text-decoration: underline;
+}

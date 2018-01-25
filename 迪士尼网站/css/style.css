@@ -1,0 +1,290 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-03 15:09:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-07 17:09:03
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 1200px;
+    height: 2440px;
+    /*background: tan;*/
+    margin: 0px auto;
+}
+#banner{
+    height: 95px;
+    /*background: red;*/
+    margin: 0px;
+}
+#banner ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#banner ul li{
+        margin-top: 31.5px;
+        float: left;
+        width: 163px;
+        text-align: center;
+}
+#banner ul li a img.one:hover{
+        background: url(../images/button1-2.gif) no-repeat;
+}
+#banner ul li a img.two:hover{
+        background: url(../images/button2-2.gif) no-repeat;
+}
+#banner ul li a img.three:hover{
+        background: url(../images/button3-2.gif) no-repeat;
+}
+#banner ul li a img.four:hover{
+        background: url(../images/button4-2.gif) no-repeat;
+}
+#banner ul li a img.five:hover{
+        background: url(../images/button5-2.gif) no-repeat;
+}
+#banner ul li a img.six:hover{
+        background: url(../images/button6-2.gif) no-repeat;
+}
+#banner ul li.logo{
+        height: 95px;
+        width: 217px;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+}
+#adv{
+    height: 505px;
+    margin-top: 20px;
+    background: url(../images/banner.gif) no-repeat;
+}
+#star{
+    height: 207px;
+    /*background: red;*/
+    margin-top: 20px;
+}
+#star h2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#star ul{
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+#star ul li{
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 57px;
+    padding: 0px;
+}
+#star ul li a{
+    text-decoration: none;
+
+}
+#star ul li a p{
+    color: #000;
+}
+#shop{
+    height: 629px;
+    /*background: red;*/
+}
+#shop h2{
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+}
+#shop div.shop_left{
+    height: 592px;
+    width: 600px;
+    float: left;
+    background: url(../images/shop1.jpg) no-repeat;
+}
+#shop div.shop_right{
+    float: right;
+    width: 600px;
+    height: 592px;
+    /*background: blue;*/
+}
+#shop div.shop_right ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#shop div.shop_right ul li{
+    margin: 0px;
+    padding: 0px;
+    height: 296px;
+    float: left;
+}
+#shop div.shop_right ul li dl{
+    text-align: center;
+
+}
+#shop div.shop_right ul li dl dt{
+    margin-left: 2px;
+}
+#shop div.shop_right ul li dl dd{
+    margin: 0px;
+    padding: 0px;
+}
+#news{
+    height: 840px;
+   /*background: green;*/
+    margin: 0px;
+    padding: 0px;
+}
+#news h2{
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+}
+#news div.up{
+    margin-top: 20px;
+    height: 473px;
+    /*background: blue;*/
+}
+#news div.up div.left{
+    width: 600px;
+    height: 473px;
+    float: left;
+    background: url(../images/news1.jpg);
+}
+#news div.up div.right{
+    width: 600px;
+    height: 473px;
+    float: right;
+    /*background: red;*/
+}
+#news div.up div.right ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#news div.up div.right ul li{
+    width: 300px;
+    float: left;
+}
+#news div.up div.right ul li dl{
+    float: left;
+    margin: 0px;
+}
+#news div.up div.right ul li dl dd.title{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#news div.up div.right ul li dl dd.content{
+    text-align: left;
+    margin: 0px 40px;
+    font-size: 14px;
+}
+#news div.down{
+    margin: 0px;
+    height: 300px;
+}
+#news div.down div.left{
+    margin: 0px;
+    width: 600px;
+    height: 300px;
+    /*background: red;*/
+    float: left;
+}
+#news div.down div.left dl{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#news div.down div.left dd.title{
+    font-size: 22px;
+    margin: 50px auto;
+}
+#news div.down div.left dd.content{
+    width: 350px;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 165px;
+}
+#news div.down div.right{
+    margin: 0px;
+    width: 600px;
+    height: 300px;
+    /*background: yellow;*/
+    float: right;
+}
+#news div.down div.right dl{
+    margin: 0px;
+    padding: 0px;
+}
+#news div.down div.right dl dt{
+    margin: 0px;
+    float: left;
+}
+#news div.down div.right dl dt img{
+    width: 300px;
+    height:300px
+}
+#news div.down div.right dd.title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 101px;
+}
+#news div.down div.right dd.content{
+    margin: 0px;
+    padding: 10px 30px 0px 315px;
+    font-size: 14px;
+}
+#links{
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    background: #fff;
+}
+#links ul.img{
+    height: 105px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#links ul.img li{
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+#links ul.img li img.first{
+    margin-left: 450px;
+}
+#links ul.img li img{
+    margin-left: 30px;
+}
+#links ul.text{
+    height: 18px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#links ul.text li{
+    margin-left: 55px;
+    float: left;
+}
+#links ul.text li.first{
+    margin-left: 315px;
+}
+#links ul.text li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+#links p{
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

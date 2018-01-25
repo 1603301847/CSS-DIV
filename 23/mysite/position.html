@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        #a_div{
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: absolute;/* 绝对定位，默认情况下是相对于浏览器窗口进行定位设置 */
+            top: 100px;
+            left: 200px;
+            z-index: 1;/* z-index属性用于设置对象的重叠层次，值越大的，越靠上 ，默认值是0*/
+            float: right;/*  设置了绝对定位的对象，就不要再设置浮动，因为绝对定位会排斥浮动。*/
+        }
+        #b_div{
+            width: 200px;
+            height: 200px;
+            background: green;
+            position: absolute;/* 绝对定位，默认情况下是相对于浏览器窗口进行定位设置 */
+            bottom: 400px;/* 绝对定位会破坏正常的文档流，从而可以做重叠效果 */
+            right: 900px;
+        }
+        #c_div{
+            width: 200px;
+            height: 200px;
+            background: blue;
+            position: absolute;/* 绝对定位，默认情况下是相对于浏览器窗口进行定位设置 */
+            bottom: 100px;/* 绝对定位会破坏正常的文档流，从而可以做重叠效果 */
+            right: 100px;
+        }
+        #d_div{
+            width: 50px;
+            height: 50px;
+            background: yellow;
+            position: absolute;/* 绝对定位，默认情况下是相对于浏览器窗口进行定位设置 */
+            top: 30px;/* 因为c div的包含在一个做了定位设置的c div内部，所以现在d div的定位是相对于其父div，也就是c div进行定位。而不是相对于浏览器窗口进行定位了。 */
+            left: 50px;
+        }/* 通常情况下，父级对象采用相对定位，内嵌的子对象采用绝对定位。 */
+    </style>
+</head>
+<body>
+    <div id="a_div">
+
+    </div>
+    <div id="b_div">
+
+    </div>
+    <div id="c_div">
+    <div id="d_div">
+
+    </div>
+</div>
+</body>
+</html>
